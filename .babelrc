@@ -1,0 +1,15 @@
+{
+    "presets": ["es2015", "react"],
+    "plugins": [
+      "transform-runtime",
+      "transform-class-properties",
+      [
+        "module-resolver", {
+          "root": ["./src/app"],
+          "alias": {
+            "$config": "/config"
+          }
+        }
+      ]
+    ]
+}
