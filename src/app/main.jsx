@@ -2,7 +2,7 @@
 import 'rxjs';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { AppContainer } from './containers/AppContainer';
+// import { AppContainer } from './containers/AppContainer';
 
 const MOUNT_NODE = document.getElementById('root');
 

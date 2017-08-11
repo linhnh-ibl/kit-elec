@@ -16575,9 +16575,9 @@ var _reactDom = __webpack_require__(533);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _AppContainer = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./containers/AppContainer\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// import { AppContainer } from './containers/AppContainer';
 
 var MOUNT_NODE = document.getElementById('root');
 
